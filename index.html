@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch A Sketch</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="control-panel">
+            <input type="color" id="color-pick">
+            <button id="clear-btn">
+                Clear
+            </button>
+            <button id="eraser-btn">
+                Eraser Off
+            </button>
+            <button id="rainbow-btn">
+                Rainbow Mode Off
+            </button>
+            <output id="slider-text">32 x 32</output>
+            <input id="slider" type="range" value="32" min="2" max="64">
+        </div>
+        <div class="canvas">
+            
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100% !important;
+    height: 100%;
+}
+
+body {
+    font-family: Palatino, serif;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;    
+}
+
+.container {
+    margin-top: 45px;
+    width: 1200px;
+    height: 90%;
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.canvas {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.canvas:hover {
+    cursor: cell;
+}
+
+.container > .control-panel {
+    height: 90%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 30px;
+    gap: 15px;
+}
+
+.control-panel button {
+    width: 80%;
+    height: 7%;
+    border: 1px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+}
+
+.control-panel button:hover {
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.control-panel #slider-text {
+    margin-top: auto;
+    font-size: 20px;
+    color: #fff;
+}
+
+.control-panel #slider {
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+#color-pick {
+    width: 80%;
+    height: 7%;
+    border: 0px;
+    background-color: transparent;
+}
+
+#color-pick:hover {
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+    scale: 1.02;
+}
+
+/*  slider               */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 80px;
+      appearance: inherit;
+      -webkit-appearance: none;
+      background-color: #9a905d;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      appearance: inherit;
+      -webkit-appearance: none;
+      /* color: #13bba4; */
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 25px;
+      appearance: inherit;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: grab;
+      background: #434343;
+    }
+
+}
+
+/*  -------------------------- */

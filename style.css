@@ -72,8 +72,12 @@ body {
 }
 
 .control-panel #slider {
-    margin-bottom: 30px;
     width: 80%;
+}
+
+.control-panel #clear-btn {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #color-pick {

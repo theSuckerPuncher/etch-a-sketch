@@ -17,17 +17,24 @@ body {
 }
 
 .container {
-    width: 1200px;
-    height: 657px;
+    /* width: 1200px;
+    height: 657px; */
+    width: 70vw;
+    height: 40vw;
     display: flex;
     background-color: rgb(30, 30, 30);
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 10vw;
 }
 
 .canvas {
-    height: 90.1%;
-    width: 49.3%;
+    /* height: 90.1%;
+    width: 49.3%; */
+    /* height: 620px;
+    width: 620px; */
+    width: 35vw;
+    height: 35vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -38,25 +45,32 @@ body {
 }
 
 .container > .control-panel {
-    height: 90%;
-    width: 20%;
+    height: 80%;
+    width: 18%;
+    /* height: 34vw;
+    width: 12vw; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    padding-top: 30px;
-    gap: 15px;
+    /* padding-top: 2vw; */
+    /* gap: 15px; */
+    gap: 1vw;
 }
 
 .control-panel button {
     width: 80%;
-    height: 7%;
-    border: 1px;
+    height: 7.5%;
+    /* width: 11.5vw;
+    height: 2.6vw; */
+    /* border: 1px; */
+    border: 0.1vw;
     border-color: #fff;
     border-style: solid;
     background-color: transparent;
     color: #fff;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.85vw;
 }
 
 .control-panel button:hover {
@@ -67,23 +81,37 @@ body {
 
 .control-panel #slider-text {
     margin-top: auto;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25vw;
     color: #fff;
 }
 
 .control-panel #slider {
     width: 80%;
+    margin-top: 1vw;
+    /* width: 11.5vw; */
 }
 
 .control-panel #clear-btn {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 30px; */
 }
+
+.slider-cls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    width: 100%;
+}
+
 
 #color-pick {
     width: 80%;
-    height: 7%;
-    border: 0px;
+    height: 7.5%;
+    /* width: 11.5vw;
+    height: 2.6vw; */
+    border: 0vw;
     background-color: transparent;
 }
 
@@ -98,25 +126,30 @@ body {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     input[type='range'] {
       overflow: hidden;
-      width: 80px;
+      /* width: 80px; */
+      width: 4.5vw;
       appearance: inherit;
       -webkit-appearance: none;
       background-color: #9a905d;
     }
     
     input[type='range']::-webkit-slider-runnable-track {
-      height: 10px;
+      /* height: 10px; */
+      height: 0.6vw;
       appearance: inherit;
       -webkit-appearance: none;
       /* color: #13bba4; */
-      margin-top: -1px;
+      /* margin-top: -1px; */
+      margin-top: -0.1vw;
     }
     
     input[type='range']::-webkit-slider-thumb {
-      width: 25px;
+      /* width: 25px; */
+      width: 1.6vw;
       appearance: inherit;
       -webkit-appearance: none;
-      height: 10px;
+      /* height: 10px; */
+      height: 0.6vw;
       cursor: grab;
       background: #434343;
     }

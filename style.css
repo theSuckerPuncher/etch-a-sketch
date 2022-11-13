@@ -4,7 +4,7 @@
 }
 
 html, body{
-    min-height: 100% !important;
+    min-height: 100%;
     height: 100%;
 }
 
@@ -17,18 +17,20 @@ body {
 }
 
 .container {
-    width: 70vw;
-    height: 40vw;
+    width: 1200px; 
+    height: 700px;
     display: flex;
     background-color: rgb(30, 30, 30);
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 180px;
 }
 
 .canvas {
-    width: 35vw;
-    height: 35vw;
+    width: 52.5%;
+    height: 90%;
+    /* width: 50%;
+    height: 80%; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -39,24 +41,24 @@ body {
 }
 
 .container > .control-panel {
-    height: 80%;
-    width: 18%;
+    height: 85%;
+    width: 19%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    gap: 1vw;
+    gap: 15px;
 }
 
 .control-panel button {
     width: 80%;
     height: 7.5%;
-    border: 0.1vw;
+    border: 1px;
     border-color: #fff;
     border-style: solid;
     background-color: transparent;
     color: #fff;
-    font-size: 0.85vw;
+    font-size: 15px;
 }
 
 .control-panel button:hover {
@@ -67,13 +69,13 @@ body {
 
 .control-panel #slider-text {
     margin-top: auto;
-    font-size: 1.25vw;
+    font-size: 18px;
     color: #fff;
 }
 
 .control-panel #slider {
     width: 80%;
-    margin-top: 1vw;
+    margin-top: 10px;
 }
 
 .slider-cls {
@@ -88,7 +90,7 @@ body {
 #color-pick {
     width: 80%;
     height: 7.5%;
-    border: 0vw;
+    border: 0px;
     background-color: transparent;
 }
 
@@ -103,24 +105,24 @@ body {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     input[type='range'] {
       overflow: hidden;
-      width: 4.5vw;
+      width: 30px;
       appearance: inherit;
       -webkit-appearance: none;
       background-color: #9a905d;
     }
     
     input[type='range']::-webkit-slider-runnable-track {
-      height: 0.6vw;
+      height: 9px;
       appearance: inherit;
       -webkit-appearance: none;
-      margin-top: -0.1vw;
+      margin-top: -2px;
     }
     
     input[type='range']::-webkit-slider-thumb {
-      width: 1.6vw;
+      width: 25px;
       appearance: inherit;
       -webkit-appearance: none;
-      height: 0.6vw;
+      height: 9px;
       cursor: grab;
       background: #434343;
     }

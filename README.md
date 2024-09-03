@@ -1,7 +1,7 @@
 # Sketch
 
 <p>This is a simple sketch game made with HTML, CSS and JavaScript using only functions to manipulate the DOM tree.</p>
-<a href="https://abel325.github.io/Sketch/">Live Demo</a>
+<a href="https://xvnoctix.github.io/Sketch/">Live Demo</a>
 <h4 color="rgb(190, 0, 0)">Important:</h4>
 <p>Enabling Dark Reader makes the drawing laggy.<br>
 Doesn't work with touchscreen.</p>
